@@ -1,0 +1,1706 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background-color: darkblue;
+  /* background-image: url(models/Model-S-Main-Hero-Desktop-LHD.jpg); */
+  background-position: center;
+  padding: 1px;
+  /* padding-bottom: 50   px; */
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 65%, rgb(0, 0, 0)),
+    url(models/Model-S-Main-Hero-Desktop-LHD.jpg);
+  background-size: cover;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid; */
+  padding: 20px 3%;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+.navbar img {
+  width: 130px;
+  height: 20px;
+}
+.navbar li,
+a {
+  display: flex;
+  display: inline;
+  list-style: none;
+  /* margin-left: 15px; */
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14.5px;
+  background-color: transparent;
+  padding: 7px;
+  border-radius: 5px;
+  transition: all 0.6s;
+}
+li:hover {
+  background-color: rgba(170, 170, 170, 0.169);
+}
+.model3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 22px;
+}
+.order {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.order p {
+  color: black;
+}
+.information {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 280px;
+  padding: 0 10%;
+}
+.box {
+  width: 20%;
+  height: auto;
+  /* border: 1px solid; */
+  padding: 30px auto;
+  float: left;
+}
+.miles {
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+}
+.btn1 {
+  width: 100%;
+  min-height: 40px;
+  border: 3px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+/* <!-- interior to future --> */
+
+#interior {
+  width: 100%;
+  min-height: 100vh;
+  background-color: darkblue;
+  /* background-image: url(models/Model-S-Main-Hero-Desktop-LHD.jpg); */
+  background-size: cover;
+  background-position: center top;
+  padding: 1px;
+  background-image: linear-gradient(
+      rgb(0, 0, 0) 25%,
+      rgba(255, 255, 255, 0) 65%
+    ),
+    url(models/MS-Interior-Hero-Desktop.jpg);
+}
+.interiorh {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 15.5px;
+  color: white;
+}
+
+/* video slider */
+
+#videoslider {
+  width: 100%;
+  min-height: 340vh;
+  background-color: black;
+  background-size: cover;
+  background-position: center top;
+  padding: 1px 5%;
+  padding-bottom: 50px;
+}
+.slider {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid white; */
+  margin-top: 150px;
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+.slides {
+  width: 500%;
+  height: auto;
+  /* border: 2px solid red; */
+  /* background-color: black; */
+  /* margin-top: 20px; */
+  transition: all 1.5s;
+  /* border-radius: 20px; */
+}
+.slide {
+  width: 20%;
+  height: max-content;
+  background-color: black;
+  float: left;
+  /* border: 2px solid blue; */
+  border-radius: 20px;
+}
+.clear {
+  clear: both;
+}
+.slide video {
+  width: 100%;
+  border-radius: 20px;
+}
+.last {
+  background-color: black;
+}
+.last video {
+  width: 100%;
+  height: auto;
+}
+.radio1 {
+  position: absolute;
+  display: none;
+}
+.lab1 {
+  width: 13px;
+  min-height: 13px;
+  background-color: rgba(128, 128, 128, 0.735);
+  margin-left: 30px;
+  position: absolute;
+  border-radius: 50%;
+  left: 260px;
+  top: 95%;
+}
+.lab2 {
+  width: 13px;
+  min-height: 13px;
+  background-color: rgba(128, 128, 128, 0.735);
+  margin-left: 30px;
+  position: absolute;
+  border-radius: 50%;
+  left: 280px;
+  top: 95%;
+}
+.lab3 {
+  width: 13px;
+  min-height: 13px;
+  background-color: rgba(128, 128, 128, 0.735);
+  margin-left: 30px;
+  position: absolute;
+  border-radius: 50%;
+  left: 300px;
+  top: 95%;
+}
+.lab4 {
+  width: 13px;
+  min-height: 13px;
+  background-color: rgba(128, 128, 128, 0.735);
+  margin-left: 30px;
+  position: absolute;
+  border-radius: 50%;
+  left: 320px;
+  top: 95%;
+}
+.lab5 {
+  width: 13px;
+  min-height: 13px;
+  background-color: rgba(128, 128, 128, 0.735);
+  margin-left: 30px;
+  position: absolute;
+  border-radius: 50%;
+  left: 340px;
+  top: 95%;
+}
+#rad1:checked ~ .slides {
+  margin-left: 0%;
+}
+#rad2:checked ~ .slides {
+  margin-left: -100%;
+}
+#rad3:checked ~ .slides {
+  margin-left: -200%;
+}
+#rad4:checked ~ .slides {
+  margin-left: -300%;
+}
+#rad5:checked ~ .slides {
+  margin-left: -400%;
+}
+.radio1:checked + .lab {
+  background-color: white;
+}
+
+.slidecontent {
+  width: 100%;
+  min-height: 300px;
+  /* border: 1px solid white; */
+}
+.content1 {
+  width: 50%;
+  height: 300px;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  position: relative;
+}
+.hap {
+  position: absolute;
+  color: white;
+}
+.hap h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.hap p {
+  margin-top: 20px;
+}
+.hap2 {
+  opacity: 0;
+}
+.hap3 {
+  opacity: 0;
+}
+.hap4 {
+  opacity: 0;
+}
+.hap5 {
+  opacity: 0;
+}
+
+.features {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid white; */
+  padding: 0 5%;
+}
+.box5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* border: 1px solid blue; */
+}
+.inbox {
+  width: 50%;
+  height: auto;
+  /* border: 1px solid green; */
+}
+.stay {
+  width: 85%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 20%;
+  /* border: 1px solid white; */
+}
+.stay1 {
+  margin-left: 0;
+  margin-right: 10%;
+}
+.inbox img {
+  width: 100%;
+}
+.inbox video {
+  width: 100%;
+  height: auto;
+}
+.inbox h4,
+p {
+  color: white;
+}
+.inbox p {
+  font-size: 15.5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* blue car */
+
+#bluecar {
+  width: 100%;
+  min-height: 110vh;
+  background-color: darkblue;
+  background-image: url(models/bluecar.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 1px;
+}
+.information2 {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 500px;
+  padding: 0 10%;
+}
+.boxblue {
+  width: 33.33%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+}
+.miles2 {
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+}
+
+/* plaid bl */
+
+#plaid {
+  width: 100%;
+  min-height: 40vh;
+  background-color: white;
+  padding: 1px 10%;
+  padding-bottom: 50px;
+}
+.bl {
+  width: 30%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  margin-top: 30px;
+}
+.bl span {
+  font-weight: lighter;
+  font-size: 22px;
+}
+.blpara {
+  width: 55%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  float: right;
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.blpara p {
+  color: rgb(39, 39, 39);
+}
+.blpara a {
+  color: rgb(39, 39, 39);
+  text-decoration: underline;
+}
+.blbtn {
+  width: 22%;
+  min-height: 40px;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.blbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Powertrain */
+
+#Powertrain {
+  width: 100%;
+  min-height: 210vh;
+  background-color: #f4f4f4;
+  padding: 1px 5%;
+  /* padding-bottom: 600px; */
+}
+.powertext {
+  width: 75%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  margin-left: 5%;
+}
+.powertext p {
+  color: rgb(39, 39, 39);
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.engineimg {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  overflow: hidden;
+}
+.slidertwo {
+  width: 200%;
+  min-height: auto;
+  /* border: 1px solid; */
+  border-radius: 20px;
+  animation: move 20s infinite;
+}
+@keyframes move {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  75% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+.smallengine {
+  width: 50%;
+  height: max-content;
+  float: left;
+  border-radius: 20px;
+}
+.smallengine img {
+  width: 100%;
+  border-radius: 20px;
+}
+.mspb {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid green; */
+  margin-top: 50px;
+  padding: 0 5%;
+  display: flex;
+}
+.modelsp {
+  width: calc(50% - 10px);
+  min-height: 400px;
+  border-top: 5px solid;
+  float: left;
+  margin-left: 10px;
+  color: grey;
+}
+.speed {
+  width: 33.33%;
+  height: auto;
+  float: left;
+  /* border: 1px solid; */
+  margin-top: 20px;
+  color: grey;
+}
+.modelsp:hover {
+  color: black;
+}
+.modelsp:hover p {
+  color: black;
+}
+.modelsp:hover .speed {
+  color: black;
+}
+.modelsp h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.modelsp p {
+  margin-top: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+.speed p {
+  margin-top: 5px;
+}
+
+/* exterior */
+
+.exteriorimg {
+  width: 100%;
+  min-height: 50vh;
+  background-color: aquamarine;
+  background-image: url(models/redcar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.exteriortext {
+  width: 100%;
+  min-height: 60vh;
+  background-color: black;
+  padding: 1px 10%;
+  padding-bottom: 50px;
+}
+.et {
+  width: 30%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  margin-top: 30px;
+  color: white;
+}
+.et span {
+  font-weight: lighter;
+  font-size: 22px;
+  color: white;
+}
+.etpara {
+  width: 55%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  float: right;
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  line-height: 1.5;
+  color: white;
+}
+.etbtn1 {
+  width: 22%;
+  min-height: 40px;
+  border: 3px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.etbtn1:hover {
+  background-color: white;
+  color: black;
+}
+
+.eb {
+  width: 100%;
+  background-color: black;
+  height: auto;
+  padding: 1px 5%;
+  padding-bottom: 80px;
+}
+.exteriorblock {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid white; */
+  padding: 0 5%;
+}
+.box5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* border: 1px solid blue; */
+}
+.inbox {
+  width: 50%;
+  height: auto;
+  /* border: 1px solid green; */
+}
+.stay {
+  width: 85%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 20%;
+  /* border: 1px solid white; */
+}
+.stay1 {
+  margin-left: 0;
+  margin-right: 10%;
+}
+.inbox img {
+  width: 100%;
+}
+.inbox video {
+  width: 100%;
+  height: auto;
+}
+.inbox h4,
+p {
+  color: white;
+}
+.inbox p {
+  font-size: 15.5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* range video */
+
+.rangevideo {
+  width: 100%;
+  min-height: 100vh;
+  /* padding-bottom: 100px; */
+  background-color: white;
+}
+.videoroad {
+  width: 70%;
+  height: auto;
+  float: left;
+  /* border: 1px solid; */
+}
+.videoroad video {
+  width: 100%;
+}
+.rangetext {
+  width: 30%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  padding: 20px 20px;
+}
+.rt {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  /* float: left; */
+  margin-top: 30px;
+}
+.rt span {
+  font-weight: lighter;
+  font-size: 22px;
+}
+.rtpara {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  /* float: left; */
+  /* float: right; */
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.rtpara p {
+  color: rgb(39, 39, 39);
+}
+.rtpara a {
+  color: rgb(39, 39, 39);
+  text-decoration: underline;
+}
+.rtbtn {
+  width: 100%;
+  min-height: 40px;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 120px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.rtbtn:hover {
+  background-color: black;
+  color: white;
+}
+.rtbtn2 {
+  width: 100%;
+  min-height: 40px;
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* fredom to travel */
+
+#map {
+  width: 100%;
+  min-height: 210vh;
+  background-color: white;
+  padding: 1px 0%;
+  /* padding-bottom: 600px; */
+}
+.maptext {
+  width: 75%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  margin-left: 5%;
+}
+.maptext p {
+  color: rgb(39, 39, 39);
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.mapimg {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  overflow: hidden;
+  padding: 1px 5%;
+}
+.slidertwo {
+  width: 200%;
+  min-height: auto;
+  /* border: 1px solid; */
+  border-radius: 20px;
+  animation: move 20s infinite;
+}
+@keyframes move {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  75% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+.smallengine {
+  width: 50%;
+  height: max-content;
+  float: left;
+  border-radius: 20px;
+}
+.smallengine img {
+  width: 100%;
+  border-radius: 20px;
+}
+.mapb2 {
+  width: 100%;
+  min-height: 150px;
+  /* border: 1px solid green; */
+  margin-top: 50px;
+  padding: 0 15%;
+}
+.mapsp {
+  width: calc(25% - 10px);
+  height: auto;
+  border-top: 5px solid;
+  float: left;
+  margin-left: 10px;
+  color: grey;
+}
+.speed2 {
+  width: 100%;
+  min-height: 100px;
+  float: left;
+  /* border: 1px solid; */
+  margin-top: 20px;
+  color: grey;
+}
+.mapsp:hover {
+  color: black;
+}
+.mapsp:hover p {
+  color: black;
+}
+.mapsp:hover .speed {
+  color: black;
+}
+.mapsp h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.mapsp p {
+  margin-top: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+.speed2 p {
+  margin-top: 5px;
+}
+.rtbtn4 {
+  width: 200px;
+  min-height: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: black;
+  font-weight: 600;
+  font-size: 15.5px;
+  /* margin-top: 20px; */
+  transition: 0.2s;
+  cursor: pointer;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rtbtn4:hover {
+  background-color: black;
+  color: white;
+}
+
+/* safety */
+
+#safety {
+  width: 100%;
+  min-height: 100vh;
+  /* padding-bottom: 100px; */
+  background-color: white;
+}
+.safetyroad {
+  width: 70%;
+  height: auto;
+  float: left;
+  /* border: 1px solid; */
+}
+.safetyroad img {
+  width: 100%;
+}
+.safetytext {
+  width: 30%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  padding: 0px 20px;
+}
+.saft {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  /* float: left; */
+  margin-top: 30px;
+}
+.saft span {
+  font-weight: lighter;
+  font-size: 22px;
+}
+.stpara {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  /* float: left; */
+  /* float: right; */
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.stpara p {
+  color: rgb(39, 39, 39);
+}
+.stpara a {
+  color: rgb(39, 39, 39);
+  text-decoration: underline;
+}
+.stbtn {
+  width: 100%;
+  min-height: 40px;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 80px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.stbtn:hover {
+  background-color: black;
+  color: white;
+}
+.stbtn2 {
+  width: 100%;
+  min-height: 40px;
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* vision */
+
+#vision {
+  width: 100%;
+  min-height: 130vh;
+  background-color: aqua;
+  background-image: url(models/Autopilot-Hero-Vision-Desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
+.visionbox {
+  width: 22%;
+  height: auto;
+}
+.vib {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  /* border: 1px solid; */
+}
+.vib p {
+  color: black;
+  font-size: 14.5px;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* auto pilot */
+
+#autopilot {
+  width: 100%;
+  min-height: 40vh;
+  background-color: white;
+  padding: 1px 10%;
+  padding-bottom: 50px;
+}
+.ap {
+  width: 30%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  margin-top: 30px;
+}
+.ap span {
+  font-weight: lighter;
+  font-size: 22px;
+}
+.appara {
+  width: 55%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  float: right;
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.appara p {
+  color: rgb(39, 39, 39);
+}
+.appara a {
+  color: rgb(39, 39, 39);
+  text-decoration: underline;
+}
+.apbtn {
+  width: 22%;
+  min-height: 40px;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.apbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* auto pilot features */
+
+#apf {
+  width: 100%;
+  min-height: 210vh;
+  background-color: white;
+  padding: 1px 5%;
+  /* padding-bottom: 600px; */
+}
+.apftext {
+  width: 75%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  margin-left: 5%;
+}
+.apftext p {
+  color: rgb(39, 39, 39);
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.apfimg {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+  margin-top: 100px;
+  overflow: hidden;
+}
+.sliderthree {
+  width: 200%;
+  min-height: auto;
+  /* border: 1px solid; */
+  border-radius: 20px;
+  animation: move 20s infinite;
+}
+@keyframes move {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  75% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+.movingcar {
+  width: 50%;
+  height: max-content;
+  float: left;
+  border-radius: 20px;
+}
+.movingcar video {
+  width: 100%;
+  border-radius: 20px;
+}
+.apfb2 {
+  width: 100%;
+  min-height: 150px;
+  /* border: 1px solid green; */
+  /* margin-top: 50px; */
+  padding: 0 15%;
+}
+.apfsp {
+  width: calc(25% - 10px);
+  height: auto;
+  border-top: 5px solid;
+  float: left;
+  margin-left: 10px;
+  color: grey;
+}
+.speed3 {
+  width: 100%;
+  min-height: 100px;
+  float: left;
+  /* border: 1px solid; */
+  margin-top: 20px;
+  color: grey;
+}
+.apfsp:hover {
+  color: black;
+}
+.apfsp:hover p {
+  color: black;
+}
+.apfsp:hover .speed {
+  color: black;
+}
+.apfsp h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.apfsp p {
+  margin-top: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+.speed3 p {
+  margin-top: 5px;
+}
+
+/* model s spec */
+
+#mss {
+  width: 100%;
+  min-height: 135vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+.mssimg {
+  width: 50%;
+  height: auto;
+  /* border: 1px solid white; */
+}
+.mssimg img {
+  width: 100%;
+}
+.mssimg h1 {
+  color: white;
+  margin: 30px 5%;
+}
+.twospecs {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid white; */
+  position: relative;
+}
+/* .com{
+    display: none;
+} */
+.lcom1 button {
+  width: 35%;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  /* padding: 5px 30px; */
+  border-radius: 5px;
+  margin-left: 3%;
+}
+.lcom2 button {
+  width: 35%;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  /* padding: 5px 30px; */
+  border-radius: 5px;
+  margin-left: 3%;
+}
+/* .lcom2{
+    width: 25%;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 80px;
+    border-radius: 5px;
+    margin-left: 5px;
+} */
+.specinfo1 {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid white; */
+  margin-top: 10px;
+  position: absolute;
+}
+.spinbox {
+  width: calc(50% - 10px);
+  min-height: 70px;
+  /* border-top: 1px solid white; */
+  margin-left: 10px;
+  margin-top: 20px;
+  float: left;
+}
+.spinbox h4 {
+  color: white;
+}
+.specinfo2 {
+  width: 100%;
+  min-height: auto;
+  /* border: 1px solid white; */
+  margin-top: 10px;
+  position: absolute;
+}
+.spinbox2 {
+  width: calc(50% - 10px);
+  min-height: 70px;
+  /* border-top: 1px solid white; */
+  margin-left: 10px;
+  margin-top: 20px;
+  float: left;
+}
+.spinbox2 h4 {
+  color: white;
+}
+#compare1:checked ~ .specinfo1 {
+  opacity: 0;
+}
+#compare2:checked ~ .specinfo1 {
+  opacity: 1;
+}
+#compare1:checked ~ .specinfo2 {
+  opacity: 1;
+}
+#compare2:checked ~ .specinfo2 {
+  opacity: 0;
+}
+.mssbtn {
+  width: 22%;
+  min-height: 40px;
+  border: 3px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 90px;
+  transition: 0.2s;
+  cursor: pointer;
+  align-self: baseline;
+}
+.mssbtn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* white car */
+
+#whitecar {
+  width: 100%;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: white;
+  padding: 1px 10%;
+  padding-bottom: 50px;
+}
+.wc {
+  width: 30%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  margin-top: 200px;
+}
+.wcimg {
+  width: 55%;
+  height: auto;
+  /* border: 1px solid; */
+  float: left;
+  float: right;
+  /* margin-left: 30px; */
+  margin-top: 130px;
+  line-height: 1.5;
+}
+.wcimg img {
+  width: 100%;
+}
+.wcbtn {
+  width: 22%;
+  min-height: 40px;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.wcbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  min-height: 50px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+}
+.footerli {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar li {
+    display: none;
+  }
+  .navbar .menu {
+    display: block;
+    background-color: rgba(170, 170, 170, 0.169);
+  }
+  .rangetext {
+    float: none;
+    width: 100%;
+  }
+  .videoroad {
+    width: 100%;
+  }
+  .rtbtn {
+    width: 20%;
+  }
+  .rtbtn2 {
+    width: 20%;
+    display: block;
+  }
+  .safetytext {
+    float: none;
+    width: 100%;
+  }
+  .safetyroad {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1038px) {
+  .first {
+    margin-top: 45px;
+  }
+}
+@media screen and (max-width: 898px) {
+  .boxhp {
+    display: none;
+  }
+  .boxbtn {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .boxmil {
+    width: 33.33%;
+  }
+  #videoslider {
+    padding: 1px;
+  }
+  .slide {
+    border-radius: unset;
+  }
+  .lab1 {
+    left: 10px;
+  }
+  .lab2 {
+    left: 30px;
+  }
+  .lab3 {
+    left: 50px;
+  }
+  .lab4 {
+    left: 70px;
+  }
+  .lab5 {
+    left: 90px;
+  }
+  .content1 {
+    margin-left: 30px;
+    width: 90%;
+  }
+  .bl {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+  }
+  .blpara {
+    float: none;
+    width: 100%;
+  }
+  .blbtn {
+    margin-top: 30px;
+  }
+  #plaid {
+    padding: 0 5%;
+  }
+  .et {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+  }
+  .etpara {
+    float: none;
+    width: 100%;
+  }
+  .etbtn {
+    margin-top: 30px;
+  }
+  #exteriortext {
+    padding: 0 5%;
+  }
+  .mapb2 {
+    padding: 0;
+  }
+  .mapsp h3 {
+    font-size: 11px;
+  }
+  .first {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 838px) {
+  .boxbtn {
+    width: 25%;
+    float: none;
+    margin: 0 auto;
+  }
+  .stay {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .modelsp p {
+    font-size: 13px;
+  }
+  .speed h2 {
+    font-size: 22px;
+  }
+  .speed p {
+    font-size: 12px;
+  }
+  .speed {
+    margin-top: 30px;
+  }
+  .first {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 598px) {
+  .boxbtn {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+  }
+  .features {
+    padding: 0;
+  }
+  .exteriorblock {
+    padding: 0;
+  }
+  .box5 {
+    display: block;
+  }
+  .inbox {
+    width: 100%;
+  }
+  .blbtn {
+    width: 100%;
+  }
+  .speed {
+    float: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .stay1 {
+    margin-left: 10%;
+  }
+  .first {
+    margin-top: 20px;
+  }
+  .speed p {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .speed h2 {
+    font-size: 22px;
+  }
+  .modelsp p {
+    font-size: 15px;
+  }
+  #Powertrain {
+    padding: 1px 0;
+  }
+  .slidertwo img {
+    border-radius: 0px;
+  }
+  .et {
+    font-size: small;
+  }
+  .etpara {
+    font-size: 15px;
+  }
+  .etbtn1 {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .exteriortext {
+    padding: 1px 5%;
+  }
+  .eb {
+    padding: 1px 0;
+  }
+  .inboximg2 video {
+    order: 1;
+  }
+  .stay {
+    margin-left: 30px;
+  }
+  #bluecar {
+    padding-bottom: 30px;
+  }
+  .videoroad {
+    padding-bottom: 30px;
+  }
+  .rtbtn {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .rtbtn2 {
+    width: 100%;
+  }
+  .rt {
+    font-size: small;
+  }
+  .rtpara {
+    font-size: 15px;
+  }
+  .maptext h1 {
+    font-size: 26px;
+  }
+  .maptext p {
+    font-size: 15px;
+  }
+  #map {
+    padding: 1px 2%;
+  }
+  .mapimg {
+    padding: 1px 0;
+  }
+  .mapsp h2 {
+    font-size: 18px;
+  }
+  .speed2 {
+    margin-top: 10px;
+  }
+  .s3 {
+    margin-top: 25px;
+  }
+  .rtbtn4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .saft {
+    font-size: small;
+  }
+  .stpara {
+    font-size: 15px;
+  }
+  #vision {
+    justify-content: center;
+    /* align-items: flex-end; */
+  }
+  .visionbox {
+    width: 33.33%;
+    display: inline-block;
+  }
+  #autopilot {
+    padding: 1px 5%;
+  }
+  .ap {
+    font-size: small;
+    width: 100%;
+    float: none;
+  }
+  .appara {
+    font-size: 15px;
+    width: 100%;
+  }
+  .apbtn {
+    width: 100%;
+  }
+  .apftext {
+    width: 100%;
+  }
+  .apftext h1 {
+    font-size: 26px;
+  }
+  .apftext p {
+    font-size: 15px;
+  }
+  #apf {
+    padding: 1px 2%;
+  }
+  .sliderthree {
+    padding: 0;
+  }
+  .apfb2 {
+    padding: 0 5%;
+  }
+  .apfsp {
+    width: calc(50% - 10px);
+    font-size: small;
+  }
+  .apfsp h3 {
+    font-size: 15px;
+  }
+  .apfsp2 {
+    margin-top: 0px;
+  }
+  .mssimg {
+    width: 100%;
+  }
+  .mssimg h1 {
+    margin-left: 0;
+  }
+  .specinfo1 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .specinfo2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  #mss {
+    padding: 1px 5%;
+    min-height: 295vh;
+  }
+  .mssbtn {
+    width: 100%;
+    margin-top: 400px;
+  }
+  .wc {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .wcbtn {
+    width: 100%;
+  }
+  .wcimg {
+    width: 100%;
+    margin-top: 0;
+  }
+  #whitecar {
+    padding: 1px 5%;
+  }
+  .footerli {
+    display: block;
+    text-align: center;
+  }
+  .foli2 {
+    display: none;
+  }
+
+  #banner {
+    background-image: url(models/Model-S-Main-Hero-Mobile-LHD.jpg);
+    background-size: cover;
+    width: 200%;
+  }
+}
+@media screen and (max-width: 525px) {
+  .banner {
+    background-size: 245%;
+    background-repeat: no-repeat;
+  }
+  .miles {
+    font-size: 10px;
+  }
+  .miles2 {
+    font-size: 10px;
+  }
+  .boxbtn {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 380px) {
+  .apfsp h3 {
+    font-size: 15px;
+  }
+  #banner {
+    background-image: url(models/Model-S-Main-Hero-Mobile-LHD.jpg);
+    background-size: cover;
+  }
+  /* .martop{
+        margin-top: 0;
+     } */
+}

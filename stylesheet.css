@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background-color: darkblue;
+    background-image: url(images/M3-Homepage-Desktop-LHD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid; */
+    padding: 20px 3%;
+    display: flex;
+    justify-content: space-between ;
+    position: fixed;
+}
+.navbar img{
+    width: 130px;
+    height: 20px;
+}
+.navbar li, a{
+    display: flex;
+    display: inline;
+    list-style: none;
+    /* margin-left: 15px; */
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14.5px;
+    background-color: transparent;
+    padding: 7px;
+    border-radius:5px ;
+    transition: all .6s;
+}
+li:hover{
+    background-color: rgba(170, 170, 170, 0.169);
+}
+
+
+.model3{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 22px;
+}
+.order{
+    text-align: center;
+    margin-top: 5px;
+}
+.order a{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.btnmaindiv{
+    width: 46%;
+    height: auto;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    margin-top: 290px;
+}
+.btn1{
+    width: calc(50% - 5px);
+    min-height: 45px;
+    float: left;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #3b3e42d6;
+    font-weight: 600;
+    font-size: 15.5px;
+}
+.btn2{
+    width: calc(50% - 5px);
+    float: left;
+    min-height: 45px;
+    border: none;
+    border-radius: 3px;
+    color: #3B3E42;
+    font-weight: 600;
+    font-size: 15.5px;
+    margin-left: 10px;
+}
+.downarrow i{
+    font-size: 20px;
+    margin: 40px 46.6%;
+    color: #3B3E42;
+    animation: bouncing infinite 2s linear;
+}
+@keyframes bouncing {
+    0%{
+     transform: translateY(0);
+    }
+    30%{
+      transform: translateY(-10px);
+    }
+    35%{
+        transform: translateY(-10px);
+    }
+    45%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-3px);
+    }
+    65%{
+        transform: translateY(-3px);
+    }
+    75%{
+        transform: translateY(-1px);
+    }
+    80%{
+        transform: translateY(-1px);
+    }
+    90%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+}
+
+
+
+
+
+
+/* model y */
+
+
+
+
+#modely{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(images/Desktop-ModelY.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+
+
+
+/* model s */
+
+
+
+
+#models{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(images/Homepage-Model-S-Desktop-LHD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+
+
+
+
+/* model x */
+
+
+
+
+#modelx{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(images/Homepage-Model-X-Desktop-LHD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+
+
+
+
+/* solar */
+
+
+
+
+#solar{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(images/_25-HP-SolarPanels-D.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+
+
+
+
+/* solar roof*/
+
+
+
+
+#solarroof{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(images/Homepage-SolarRoof-Desktop-Global.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+
+
+
+
+
+/* Accessories*/
+
+
+
+
+#Accessories{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(images/dd739764-bcaa-4263-9488-8c73bc9fb046.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+.btnmaindiv3{
+    width: 25%;
+    height: auto;
+    /* border: 1px solid; */
+    margin: 290px auto;
+}
+.btn3{
+    width: 100%;
+    min-height: 45px;
+    float: left;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #3b3e42;
+    font-weight: 600;
+    font-size: 15.5px;
+}
+
+
+
+/* footer */
+
+
+
+
+footer{
+    width: 100%;
+    min-height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.footerli{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px){
+    .navbar li{
+        display: none;
+    }
+    .navbar .menu{
+        display: block;
+        background-color: rgba(170, 170, 170, 0.169);
+    }
+    .btnmaindiv{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width: 598px){
+    .btn1{
+        width: 100%;
+    }
+    .btn2{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .btnmaindiv{
+        width: 95%;
+        margin-top: 200px;
+    }
+    .banner{
+        background-size: 200%;
+        background-position: center;
+        background-image: url(images/mobilescreen.jpg);
+        background-size: cover;
+    }
+    #modely{
+        background-size: 200%;
+        background-image: url(images/modely.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #models{
+        background-size: 200%;
+        background-position: center;
+        background-image: url(images/models.jpg);
+        background-size: cover;
+    }
+    #modelx{
+        background-size: 200%;
+        background-position: center;
+        background-image: url(images/modelx.jpg);
+        background-size: cover;
+    }
+    #solar{
+        background-size: 200%;
+        background-position: center;
+        background-image: url(images/solarpanel.jpg);
+        background-size: cover;
+    }
+    #solarroof{
+        background-size: 150%;
+        background-position: center;
+        background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/e5c48745-ec05-4488-9585-5b3daf8075ac/bvlatuR/std/750x1624/Homepage-SolarRoof-Mobile-Global?quality=auto-medium&format=auto);
+    }
+    #Accessories{
+        background-size: 300%;
+        background-position: center;
+        background-image: url(images/acces.jpg);
+        background-size: cover;
+    }
+    .btn3{
+        width: 100%;
+    }
+    .model3{
+        font-size: 20px;
+    }
+    .footerli{
+        display: block;
+        text-align: center;
+    }
+    .foli2{
+        display: none;
+    }
+}
